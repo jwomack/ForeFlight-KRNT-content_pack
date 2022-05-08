@@ -1,2 +1,5 @@
 # Ignore VSCode Local History Module Directory
 .history
+
+# Ignore zip files
+*.zip
