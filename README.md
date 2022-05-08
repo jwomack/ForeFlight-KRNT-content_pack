@@ -41,7 +41,7 @@ If there is no .zip file, you can create one by zipping the content pack directo
 ## How this content was made
 
 ### Setup
-I can't take credit for process, I found that on reddit[^5] [here](https://www.reddit.com/r/flying/comments/9r75er/how_to_geo_referenced_sectional_charts_in_google/).  The basic process outlines is as follows.
+I can't take credit for process, I found that on reddit[^5] [here](https://www.reddit.com/r/flying/comments/9r75er/how_to_geo_referenced_sectional_charts_in_google/).  The basic process outline is as follows.
 
 1. Install Google Earth Pro[^4]
 2. Download the GEO-TIFF zip file containing the sectional or tac chart you want to mark-up.
