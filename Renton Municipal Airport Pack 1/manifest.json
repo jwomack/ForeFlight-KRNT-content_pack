@@ -1,6 +1,8 @@
 {
 	"name": "Renton Municipal Airport Pack 1",
 	"abbreviation": "KRNT.V1",
-	"version": 1.5,
+	"version": 1.7,
+	"expirationDate": "20220519T00:00:00",
+	"effectiveDate": "20220324T00:00:00",
 	"organizationName": "Joseph Womack"
 }
