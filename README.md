@@ -36,12 +36,14 @@ Please reference ForeFlight's page for how on [IMPORTING CONTENT PACKS](https://
 1. Send the "Renton Municipal Airport Pack 1.zip" file as an email attachment to yourself.
 2. Import the file into ForeFlight by opening the email in the Apple Mail app and tap-hold on the attachment.  After the share modal appears, scroll through the app list in the middle until you reach ForeFlight, then tap "Copy to ForeFlight".  This will open ForeFlight and add the content pack in More > Custom Content.
 
+If there is no .zip file, you can create one by zipping the content pack directory you want (i.e.  Renton Municipal Airport Pack 1)
+
 ## How this content was made
 
 ### Setup
-I can't take credit for process, I found that on reddit [here](https://www.reddit.com/r/flying/comments/9r75er/how_to_geo_referenced_sectional_charts_in_google/).  The basic process outlines is as follows.
+I can't take credit for process, I found that on reddit[^5] [here](https://www.reddit.com/r/flying/comments/9r75er/how_to_geo_referenced_sectional_charts_in_google/).  The basic process outlines is as follows.
 
-1. Install Google Earth Pro
+1. Install Google Earth Pro[^4]
 2. Download the GEO-TIFF zip file containing the sectional or tac chart you want to mark-up.
 3. Unzip the GEO-TIFF file
 4. Open the .tif file in Google Earth Pro
@@ -56,3 +58,5 @@ The VFR Checkpoints I put in a .csv file because I did not want the icon assosia
 [^1]:[ForeFlight](https://foreflight.com/)
 [^2]:[Renton Municipal Airport](https://rentonwa.gov/city_hall/public_works/renton_municipal_airport)
 [^3]:[ForeFlight Content Packs](https://foreflight.com/products/foreflight-mobile/user-content/content-packs/)
+[^4]:[Google Earth Prod on desktop](https://www.google.com/earth/versions/#earth-pro)
+[^5]:[Reddit](https://www.reddit.com/)
