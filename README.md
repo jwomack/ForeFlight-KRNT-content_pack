@@ -51,9 +51,9 @@ I can't take credit for process, I found that on reddit[^5] [here](https://www.r
 
 ### Process
 
-The rest is using Google Earth Pro to do the markup.  Use the ruler to create the circles or the practice areas.  Then save the polygons, circles, etc. as a .kml or .kmz (a zipped .kml) file.
+The rest is using Google Earth Pro to do the markup.  Use the ruler to create the circles or the practice areas.  Then save the polygons, circles, etc. as a .kml or .kmz (a zipped .kml) file.  I'm using .kml since the pack itself is zipped.
 
-The VFR Checkpoints I put in a .csv file because I did not want the icon assosiated with the checkpoint to show up on the map.  I also wanted them in a single layer, but this could be done with a folder and exporting the folder instead of each checkpoint.  This may change in the future, I'm trying to decide what works best.
+The VFR Checkpoints I put in single layer, instead of each checkpoint.
 
 [^1]:[ForeFlight](https://foreflight.com/)
 [^2]:[Renton Municipal Airport](https://rentonwa.gov/city_hall/public_works/renton_municipal_airport)
