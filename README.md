@@ -29,6 +29,13 @@ I am using the Seattle flyway chart to find those locations that have the little
 
 So why create all of these?  Well despite living in the area for most of my life, driving somewhere and flying above the same area is just different mental map, at least it is for me.  The checkpoints, unless they have a parenthesised VP* label, can't be used in ForeFlight or a Garmin GPS.  When I need to call ATC, I want to be able to tell them where I am at.  
 
+## How to install this content pack
+
+Please reference ForeFlight's page for how on [IMPORTING CONTENT PACKS](https://foreflight.com/support/content-packs/).  You will have to scroll down to the bottom 1/3 of the web page to find the different options.  Below is how to import via email in case the webpage becomes invalid.
+
+1. Send the "Renton Municipal Airport Pack 1.zip" file as an email attachment to yourself.
+2. Import the file into ForeFlight by opening the email in the Apple Mail app and tap-hold on the attachment.  After the share modal appears, scroll through the app list in the middle until you reach ForeFlight, then tap "Copy to ForeFlight".  This will open ForeFlight and add the content pack in More > Custom Content.
+
 ## How this content was made
 
 ### Setup
