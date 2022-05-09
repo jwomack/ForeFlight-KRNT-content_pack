@@ -8,7 +8,8 @@ jobs:
       - run: ls -lR
       - run: zip -r 'Renton Municipal Airport Pack 1.zip' 'Renton Municipal Airport Pack 1'
       - run: ls -lR
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@v3
         with:
           name: content-pack-artifacts
           path: '*.zip'
+          retention-days: 5
