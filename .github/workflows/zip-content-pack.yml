@@ -10,7 +10,7 @@ jobs:
         with:
           type: 'zip'
           filename: 'release.zip'
-          directory: 'Renton Municipal Airport Pack 1'
+          path: 'Renton Municipal Airport Pack 1'
           exclusions: '*.git*'
       - run: ls -lR
       - uses: actions/upload-artifact@v1
