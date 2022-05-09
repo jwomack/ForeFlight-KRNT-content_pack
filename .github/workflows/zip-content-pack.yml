@@ -1,19 +1,14 @@
 name: zip-content-packs
 on: [push]
 jobs:
-  zip-files:
+  zip-Renton_Municipal_Airport_Pack_1:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - run: ls -lR
-      - uses: thedoctor0/zip-release@master
-        with:
-          type: 'zip'
-          filename: 'release.zip'
-          path: 'Renton Municipal Airport Pack 1'
-          exclusions: '*.git*'
+      - run: zip -r 'Renton Municipal Airport Pack 1.zip' 'Renton Municipal Airport Pack 1'
       - run: ls -lR
       - uses: actions/upload-artifact@v1
         with:
           name: content-packs-artifact
-          path: ${{ github.workspace }}/result.zip
+          path: ${{ github.workspace }}/'Renton Municipal Airport Pack 1.zip'
