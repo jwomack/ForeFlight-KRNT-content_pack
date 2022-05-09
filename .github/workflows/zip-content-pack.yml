@@ -4,7 +4,10 @@ jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: montudor/action-zip@v1
+      - uses: actions/checkout@master
+      - uses: thedoctor0/zip-release@master
         with:
-          args: zip -qq -r 'Renton Municipal Airport Pack 1.zip' 'Renton Municipal Airport Pack 1'
+          type: 'zip'
+          filename: 'Renton Municipal Airport Pack 1.zip'
+          directory: 'Renton Municipal Airport Pack 1'
+          exclusions: '*.git*'
