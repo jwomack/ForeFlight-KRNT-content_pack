@@ -9,6 +9,7 @@ jobs:
       - uses: papeloto/action-zip@v1
         with:
           files: '.'
+      - run: ls -lR
       - uses: actions/upload-artifact@v1
         with:
           name: content-packs-artifact
