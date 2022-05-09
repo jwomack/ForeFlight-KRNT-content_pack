@@ -8,4 +8,4 @@ jobs:
       - run: ls -lR
       - uses: papeloto/action-zip@v1
         with:
-          files: '*/'
+          files: '.'
