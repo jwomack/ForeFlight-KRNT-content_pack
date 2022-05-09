@@ -8,6 +8,6 @@ jobs:
       - uses: thedoctor0/zip-release@master
         with:
           type: 'zip'
-          filename: 'Renton Municipal Airport Pack 1.zip'
-          directory: 'Renton Municipal Airport Pack 1'
+          filename: '"Renton Municipal Airport Pack 1.zip"'
+          directory: '"Renton Municipal Airport Pack 1"'
           exclusions: '*.git*'
