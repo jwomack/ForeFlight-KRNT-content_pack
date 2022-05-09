@@ -5,6 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: ls -lR
       - uses: papeloto/action-zip@v1
         with:
-          files: "*/"
+          files: '*/'
