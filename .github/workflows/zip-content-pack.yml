@@ -10,5 +10,5 @@ jobs:
       - run: ls -lR
       - uses: actions/upload-artifact@v1
         with:
-          name: content-packs-artifact
-          path: ${{ github.workspace }}/'Renton Municipal Airport Pack 1.zip'
+          name: content-packs-artifacts
+          path: ${{ github.workspace }}/*.zip
