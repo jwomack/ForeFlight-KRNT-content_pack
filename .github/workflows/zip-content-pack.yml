@@ -10,5 +10,5 @@ jobs:
       - run: ls -lR
       - uses: actions/upload-artifact@v1
         with:
-          name: content-packs-artifacts
-          path: ${{ github.workspace }}/*.zip
+          name: content-pack-artifacts
+          path: *.zip
