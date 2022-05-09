@@ -6,10 +6,10 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - run: ls -lR
-      - run: zip -r 'Renton Municipal Airport Pack 1.zip' 'Renton Municipal Airport Pack 1'
+      - run: pushd 'Renton Municipal Airport Pack 1' && zip -r '../Renton Municipal Airport Pack 1.zip' . && popd
       - run: ls -lR
       - uses: actions/upload-artifact@v3
         with:
           name: content-pack-artifacts
-          path: '*.zip'
+          path: 'Renton Municipal Airport Pack 1.zip'
           retention-days: 5
