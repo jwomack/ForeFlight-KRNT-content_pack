@@ -4,11 +4,14 @@ jobs:
   zip-files:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@master
       - run: ls -lR
-      - uses: papeloto/action-zip@v1
+      - uses: thedoctor0/zip-release@master
         with:
-          files: '.'
+          type: 'zip'
+          filename: 'release.zip'
+          directory: 'Renton Municipal Airport Pack 1'
+          exclusions: '*.git*'
       - run: ls -lR
       - uses: actions/upload-artifact@v1
         with:
