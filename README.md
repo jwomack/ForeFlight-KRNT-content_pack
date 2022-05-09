@@ -27,7 +27,9 @@ The content pack has some useful layers that can be displade on the map.
 
 I am using the Seattle flyway chart to find those locations that have the little flag pinned to a location.  These are called *"VFR Checkpoints"*.  The underline indicates proper name of the VFR Checkpoint.  Check out the [Areonautical Chart Users' Guide - VFR Charting Products](https://aeronav.faa.gov/user_guide/20220324/cug-visual-edition.pdf) for more information.
 
-So why create all of these?  Well despite living in the area for most of my life, driving somewhere and flying above the same area is just different mental map, at least it is for me.  The checkpoints, unless they have a parenthesised VP* label, can't be used in ForeFlight or a Garmin GPS.  When I need to call ATC, I want to be able to tell them where I am at.  
+So why create all of these?  Well despite living in the area for most of my life, driving somewhere and flying above the same area is just different mental map, at least it is for me.  The checkpoints, unless they have a parenthesised VP* label, can't be used in ForeFlight or a Garmin GPS.  When I need to call ATC, I want to be able to tell them where I am at.
+
+This is in progress and not complete.
 
 ## How to install this content pack
 

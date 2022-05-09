@@ -29,9 +29,19 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag9</styleUrl>
+			<styleUrl>#sh_flag11</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sh_flag0">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_flag">
 		<IconStyle>
 			<Icon>
@@ -45,21 +55,11 @@
 	<StyleMap id="msn_flag0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag1">
-		<Pair>
-			<key>normal</key>
 			<styleUrl>#sn_flag10</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag7</styleUrl>
+			<styleUrl>#sh_flag9</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_flag0">
@@ -72,47 +72,17 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag2">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag1">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sh_flag0">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_flag3">
+	<StyleMap id="msn_flag1">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_flag5</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag11</styleUrl>
+			<styleUrl>#sh_flag6</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag2">
+	<Style id="sn_flag1">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -132,6 +102,26 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_flag2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag12</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag2">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_flag2">
 		<IconStyle>
 			<Icon>
@@ -142,27 +132,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="sh_flag3">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_marina">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -182,34 +152,14 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag5">
+	<StyleMap id="msn_flag3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag4</styleUrl>
+			<styleUrl>#sn_flag6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag3">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_marina">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_marina</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_marina</styleUrl>
+			<styleUrl>#sh_flag4</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_flag5">
@@ -222,7 +172,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_flag4">
+	<Style id="sn_marina">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -242,16 +192,76 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag6">
+	<StyleMap id="msn_flag4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_marina">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_marina</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_marina</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag7">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag3">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag8">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag5">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_flag9</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag8</styleUrl>
+			<styleUrl>#sh_flag10</styleUrl>
 		</Pair>
 	</StyleMap>
+	<Style id="sn_flag4">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sn_flag5">
 		<IconStyle>
 			<Icon>
@@ -262,17 +272,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_flag6">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_flag7">
+	<StyleMap id="msn_flag6">
 		<Pair>
 			<key>normal</key>
 			<styleUrl>#sn_flag1</styleUrl>
@@ -282,17 +282,27 @@
 			<styleUrl>#sh_flag</styleUrl>
 		</Pair>
 	</StyleMap>
-	<StyleMap id="msn_flag8">
+	<StyleMap id="msn_flag7">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag8</styleUrl>
+			<styleUrl>#sn_flag11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag3</styleUrl>
+			<styleUrl>#sh_flag0</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag7">
+	<StyleMap id="msn_flag8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag6">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -305,14 +315,24 @@
 	<StyleMap id="msn_flag9">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag11</styleUrl>
+			<styleUrl>#sn_flag12</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag5</styleUrl>
+			<styleUrl>#sh_flag7</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_flag7">
+	<Style id="sh_flag9">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag7">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -352,26 +372,6 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag6</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag8">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sn_flag11">
 		<IconStyle>
 			<Icon>
@@ -382,24 +382,14 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_flag9">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_flag11">
+	<StyleMap id="msn_flag10">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag2</styleUrl>
+			<styleUrl>#sn_flag0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag0</styleUrl>
+			<styleUrl>#sh_flag8</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_flag10">
@@ -412,7 +402,47 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sn_flag12">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_flag11">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag12">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag12">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -455,7 +485,7 @@
 				<range>82399.09473630259</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag4</styleUrl>
+			<styleUrl>#msn_flag3</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-121.982787,47.737819,0</coordinates>
@@ -509,7 +539,7 @@
 				<range>27460.98009550292</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag5</styleUrl>
+			<styleUrl>#msn_flag4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.339615,47.639945,0</coordinates>
@@ -527,7 +557,7 @@
 				<range>21874.66231805927</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag2</styleUrl>
+			<styleUrl>#msn_flag1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.26412,47.589881,0</coordinates>
@@ -545,7 +575,7 @@
 				<range>37067.85799798833</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag6</styleUrl>
+			<styleUrl>#msn_flag5</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.4220830296034,47.57606306900909,0</coordinates>
@@ -581,7 +611,7 @@
 				<range>27460.98009550169</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag11</styleUrl>
+			<styleUrl>#msn_flag12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.163748,47.57820399999999,0</coordinates>
@@ -599,7 +629,7 @@
 				<range>21922.31851875715</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag1</styleUrl>
+			<styleUrl>#msn_flag0</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1744248032134,47.49974413275098,0</coordinates>
@@ -635,14 +665,14 @@
 				<range>21922.31851875585</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag7</styleUrl>
+			<styleUrl>#msn_flag6</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0578869338781,47.4447485584012,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>YOUNGS</name>
+			<name>LAKE_YOUNGS</name>
 			<description>Lake Youngs</description>
 			<LookAt>
 				<longitude>-122.079280909908</longitude>
@@ -653,7 +683,7 @@
 				<range>37067.85799799042</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag0</styleUrl>
+			<styleUrl>#msn_flag11</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1310326500656,47.4200817354427,0</coordinates>
@@ -671,10 +701,28 @@
 				<range>44724.24212560282</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag3</styleUrl>
+			<styleUrl>#msn_flag2</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.032907,47.534469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FAUNTLEROY_FERRY</name>
+			<description>Fauntleroy Ferry</description>
+			<LookAt>
+				<longitude>-122.3768592009479</longitude>
+				<latitude>47.5261497652764</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1922102892146163</heading>
+				<tilt>3.374570768781697</tilt>
+				<range>28906.51689223345</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_flag7</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.3977481423367,47.52467745834917,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
