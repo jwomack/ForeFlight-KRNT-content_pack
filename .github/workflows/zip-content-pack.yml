@@ -11,4 +11,4 @@ jobs:
       - uses: actions/upload-artifact@v1
         with:
           name: content-pack-artifacts
-          path: *.zip
+          path: '*.zip'
