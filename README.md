@@ -29,7 +29,7 @@ I am using the Seattle flyway chart to find those locations that have the little
 
 So why create all of these?  Well despite living in the area for most of my life, driving somewhere and flying above the same area is just different mental map, at least it is for me.  The checkpoints, unless they have a parenthesised VP* label, can't be used in ForeFlight or a Garmin GPS.  When I need to call ATC, I want to be able to tell them where I am at.
 
-This is in progress and not complete.
+As of May 10, 2022, the checkpoints within the a 25NM radius of KRNT have been added.
 
 ## How to install this content pack
 

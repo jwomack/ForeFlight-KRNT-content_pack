@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>SEA flyway VFR Checkpoints.kml</name>
-	<Style id="sh_flag">
+	<Style id="sn_flag">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -25,14 +25,14 @@
 	<StyleMap id="msn_flag">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag</styleUrl>
+			<styleUrl>#sn_flag0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag11</styleUrl>
+			<styleUrl>#sh_flag16</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_flag0">
+	<Style id="sh_flag">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -42,7 +42,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_flag">
+	<Style id="sn_flag0">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -55,31 +55,21 @@
 	<StyleMap id="msn_flag0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag10</styleUrl>
+			<styleUrl>#sn_flag13</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag9</styleUrl>
+			<styleUrl>#sh_flag12</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_flag0">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_flag1">
+	<StyleMap id="msn_placemark_circle">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag5</styleUrl>
+			<styleUrl>#sn_placemark_circle0</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag6</styleUrl>
+			<styleUrl>#sh_placemark_circle_highlight0</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_flag1">
@@ -92,7 +82,27 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sh_flag1">
+	<StyleMap id="msn_flag1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag8</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag15</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag0">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -102,17 +112,27 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag2">
+	<StyleMap id="msn_flag3">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag4</styleUrl>
+			<styleUrl>#sn_flag6</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag12</styleUrl>
+			<styleUrl>#sh_flag17</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_flag2">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag1">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -142,6 +162,16 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_flag4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag9</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag3</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sh_flag4">
 		<IconStyle>
 			<Icon>
@@ -152,17 +182,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag3">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag6</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag4</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag5">
+	<Style id="sh_placemark_circle_highlight">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -182,6 +202,46 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<Style id="sh_flag5">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag3">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag4</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_placemark_circle">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
 	<Style id="sh_flag6">
 		<IconStyle>
 			<Icon>
@@ -192,16 +252,6 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag4">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag3</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag3</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_marina">
 		<Pair>
 			<key>normal</key>
@@ -222,16 +272,6 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_flag3">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
 	<Style id="sh_flag8">
 		<IconStyle>
 			<Icon>
@@ -242,14 +282,14 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag5">
+	<StyleMap id="msn_placemark_circle0">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag9</styleUrl>
+			<styleUrl>#sn_placemark_circle</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag10</styleUrl>
+			<styleUrl>#sh_placemark_circle_highlight</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sn_flag4">
@@ -262,6 +302,36 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
+	<StyleMap id="msn_flag6">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag6</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag15</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag10</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag8">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag14</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag13</styleUrl>
+		</Pair>
+	</StyleMap>
 	<Style id="sn_flag5">
 		<IconStyle>
 			<Icon>
@@ -272,37 +342,7 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag6">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag7">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag11</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_flag8">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag7</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag5</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_flag6">
+	<Style id="sh_flag9">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -319,77 +359,7 @@
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_flag7</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_flag9">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_flag7">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_flag8">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_flag9">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_flag10">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<Style id="sn_flag11">
-		<IconStyle>
-			<Icon>
-			</Icon>
-		</IconStyle>
-		<BalloonStyle>
-		</BalloonStyle>
-		<ListStyle>
-		</ListStyle>
-	</Style>
-	<StyleMap id="msn_flag10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag8</styleUrl>
+			<styleUrl>#sh_flag14</styleUrl>
 		</Pair>
 	</StyleMap>
 	<Style id="sh_flag10">
@@ -402,7 +372,47 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<Style id="sn_flag12">
+	<Style id="sn_flag6">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag10">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag7</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag7">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag11">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag16</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag8">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -422,27 +432,227 @@
 		<ListStyle>
 		</ListStyle>
 	</Style>
-	<StyleMap id="msn_flag11">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_flag8</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_flag2</styleUrl>
-		</Pair>
-	</StyleMap>
 	<StyleMap id="msn_flag12">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_flag2</styleUrl>
+			<styleUrl>#sn_flag10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag9">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag17</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag8</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag10">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag12">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_placemark_circle0">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag11">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag12">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag14">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag3</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag13">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag14">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag15">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag16">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag13">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag15">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag9</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag14">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_placemark_circle_highlight0">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag15">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_flag17">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_flag16">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_flag16">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag11</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
 			<styleUrl>#sh_flag1</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_flag12">
+	<StyleMap id="msn_flag17">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag17">
 		<IconStyle>
 			<Icon>
 			</Icon>
@@ -467,7 +677,7 @@
 				<range>82399.09473630259</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag8</styleUrl>
+			<styleUrl>#msn_flag12</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.499967,47.799674,0</coordinates>
@@ -485,7 +695,7 @@
 				<range>82399.09473630259</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag3</styleUrl>
+			<styleUrl>#msn_flag4</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-121.982787,47.737819,0</coordinates>
@@ -539,7 +749,7 @@
 				<range>27460.98009550292</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag4</styleUrl>
+			<styleUrl>#msn_flag5</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.339615,47.639945,0</coordinates>
@@ -557,7 +767,7 @@
 				<range>21874.66231805927</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag1</styleUrl>
+			<styleUrl>#msn_flag2</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.26412,47.589881,0</coordinates>
@@ -575,7 +785,7 @@
 				<range>37067.85799798833</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag5</styleUrl>
+			<styleUrl>#msn_flag9</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.4220830296034,47.57606306900909,0</coordinates>
@@ -593,7 +803,7 @@
 				<range>21874.66231805927</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag9</styleUrl>
+			<styleUrl>#msn_flag13</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.203532,47.580974,0</coordinates>
@@ -611,10 +821,82 @@
 				<range>27460.98009550169</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag12</styleUrl>
+			<styleUrl>#msn_flag17</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.163748,47.57820399999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>GOLF_COURSE</name>
+			<description>Maplewood Golf Course</description>
+			<LookAt>
+				<longitude>-122.1104371023882</longitude>
+				<latitude>47.48840918369181</latitude>
+				<altitude>0</altitude>
+				<heading>-6.361109362927034e-15</heading>
+				<tilt>0</tilt>
+				<range>21922.31851875585</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_flag15</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.1675171816849,47.47946320915712,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ISSAQUAH</name>
+			<description>Issaquah</description>
+			<LookAt>
+				<longitude>-122.0396051521117</longitude>
+				<latitude>47.5348612134813</latitude>
+				<altitude>0</altitude>
+				<heading>0.05878033596010506</heading>
+				<tilt>0.388601433225168</tilt>
+				<range>44724.24212560282</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_flag3</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.032907,47.534469,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>FAUNTLEROY_FERRY</name>
+			<description>Fauntleroy Ferry</description>
+			<LookAt>
+				<longitude>-122.3768592009479</longitude>
+				<latitude>47.5261497652764</latitude>
+				<altitude>0</altitude>
+				<heading>-0.1922102892146163</heading>
+				<tilt>3.374570768781697</tilt>
+				<range>28906.51689223345</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_flag11</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.3977481423367,47.52467745834917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>VASHON_HEIGHTS</name>
+			<description>Vashon Heights</description>
+			<Camera>
+				<longitude>-122.3053864357813</longitude>
+				<latitude>47.50082141695285</latitude>
+				<altitude>52454.59178830744</altitude>
+				<heading>-0.4546895190180397</heading>
+				<tilt>0.2887269267340263</tilt>
+				<roll>1.232906349736953</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_placemark_circle0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.4642705140075,47.50584010902083,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
@@ -636,25 +918,25 @@
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>GOLF_COURSE</name>
-			<description>Maplewood Golf Course</description>
-			<LookAt>
-				<longitude>-122.1104371023882</longitude>
-				<latitude>47.48840918369181</latitude>
-				<altitude>0</altitude>
-				<heading>-6.361109362927034e-15</heading>
-				<tilt>0</tilt>
-				<range>21922.31851875585</range>
+			<name>THREE_TREE</name>
+			<description>Three Tree</description>
+			<Camera>
+				<longitude>-122.3647132235163</longitude>
+				<latitude>47.45405042338116</latitude>
+				<altitude>29211.58330203053</altitude>
+				<heading>-0.4984612223121939</heading>
+				<tilt>0.2887268956695502</tilt>
+				<roll>1.232283290589393</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_flag10</styleUrl>
+			</Camera>
+			<styleUrl>#msn_placemark_circle</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.1675171816849,47.47946320915712,0</coordinates>
+				<coordinates>-122.3824889514813,47.44766289898085,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>LANDFILL</name>
+			<name>CEDAR_HILLS_LANDFILL</name>
 			<description>Cedar Hills landfill</description>
 			<LookAt>
 				<longitude>-122.1104371023882</longitude>
@@ -665,7 +947,7 @@
 				<range>21922.31851875585</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag6</styleUrl>
+			<styleUrl>#msn_flag8</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.0578869338781,47.4447485584012,0</coordinates>
@@ -683,46 +965,100 @@
 				<range>37067.85799799042</range>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
 			</LookAt>
-			<styleUrl>#msn_flag11</styleUrl>
+			<styleUrl>#msn_flag16</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
 				<coordinates>-122.1310326500656,47.4200817354427,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>ISSAQUAH</name>
-			<description>Issaquah</description>
-			<LookAt>
-				<longitude>-122.0396051521117</longitude>
-				<latitude>47.5348612134813</latitude>
-				<altitude>0</altitude>
-				<heading>0.05878033596010506</heading>
-				<tilt>0.388601433225168</tilt>
-				<range>44724.24212560282</range>
+			<name>VAUGHN_BAY</name>
+			<description>Vaughn Bay</description>
+			<Camera>
+				<longitude>-122.7265106789352</longitude>
+				<latitude>47.34109602198391</latitude>
+				<altitude>29211.58330203194</altitude>
+				<heading>-0.7650418538179334</heading>
+				<tilt>0.2887268956695502</tilt>
+				<roll>1.232283290584615</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<styleUrl>#msn_flag2</styleUrl>
+			</Camera>
+			<styleUrl>#msn_flag1</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.032907,47.534469,0</coordinates>
+				<coordinates>-122.781946490547,47.34134891412259,0</coordinates>
 			</Point>
 		</Placemark>
 		<Placemark>
-			<name>FAUNTLEROY_FERRY</name>
-			<description>Fauntleroy Ferry</description>
-			<LookAt>
-				<longitude>-122.3768592009479</longitude>
-				<latitude>47.5261497652764</latitude>
-				<altitude>0</altitude>
-				<heading>-0.1922102892146163</heading>
-				<tilt>3.374570768781697</tilt>
-				<range>28906.51689223345</range>
+			<name>POINT_DEFIANCE</name>
+			<description>Point_Defiance</description>
+			<Camera>
+				<longitude>-122.5583749139734</longitude>
+				<latitude>47.2960783552359</latitude>
+				<altitude>29211.58330202911</altitude>
+				<heading>-0.64135146278834</heading>
+				<tilt>0.2887268956682879</tilt>
+				<roll>1.232283290585964</roll>
 				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
+			</Camera>
+			<styleUrl>#msn_flag6</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.5446124072239,47.31908079402277,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>BLACK_DIAMOND</name>
+			<description>Black Diamond</description>
+			<Camera>
+				<longitude>-122.0072845342035</longitude>
+				<latitude>47.30595615296753</latitude>
+				<altitude>29211.5833020277</altitude>
+				<heading>-0.2362965586648487</heading>
+				<tilt>0.2887268956670255</tilt>
+				<roll>1.232283290587787</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_flag10</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.0027995442296,47.31031185599141,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>TACOMA_NARROWS_BRIDGE</name>
+			<description>Tacoma Narrows Bridge</description>
+			<Camera>
+				<longitude>-122.5256360357462</longitude>
+				<latitude>47.21852472219275</latitude>
+				<altitude>29211.58330203053</altitude>
+				<heading>-0.6174073537515251</heading>
+				<tilt>0.2887268956708125</tilt>
+				<roll>1.232283290584634</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
+			<styleUrl>#msn_flag14</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-122.551163165711,47.27144784088607,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>ENUMCLAW</name>
+			<description>Enumclaw</description>
+			<Camera>
+				<longitude>-121.9536106413588</longitude>
+				<latitude>47.18694694015829</latitude>
+				<altitude>29211.58330202911</altitude>
+				<heading>-0.1976414069350129</heading>
+				<tilt>0.2887268956695502</tilt>
+				<roll>1.232283290584472</roll>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</Camera>
 			<styleUrl>#msn_flag7</styleUrl>
 			<Point>
 				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>-122.3977481423367,47.52467745834917,0</coordinates>
+				<coordinates>-121.9937416949241,47.20760045650009,0</coordinates>
 			</Point>
 		</Placemark>
 	</Folder>
