@@ -7,12 +7,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Make release directory
-        run: mkdir release
       - name: Checkout main
         uses: actions/checkout@master
+      - name: Make release directory
+        run: mkdir release
       - name: Zip content packs
-        run: ls -d *Pack* | while read directory; do pushd "${directory}" && zip -r ../"${directory}.zip" . && popd; done
+        run: ls -d *Pack* | while read directory; do pushd "${directory}" && zip -r "../release/${directory}.zip" . && popd; done
       - name: List release directory
         run: ls -lR
       - uses: actions/upload-artifact@v3
