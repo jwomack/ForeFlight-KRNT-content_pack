@@ -14,7 +14,7 @@ jobs:
       - name: Zip content packs
         run: ls -d *Pack* | while read directory; do pushd "${directory}" && zip -r ../"${directory}.zip" . && popd; done
       - name: List release directory
-        run: ls -lR release
+        run: ls -lR
       - uses: actions/upload-artifact@v3
         with:
           name: content-pack-artifacts
