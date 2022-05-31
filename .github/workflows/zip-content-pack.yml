@@ -1,15 +1,23 @@
 name: zip-content-packs
-on: [push]
+on:
+  push:
+    branches:
+      - main
 jobs:
-  zip-Renton_Municipal_Airport_Pack_1:
+  create-artifacts:
     runs-on: ubuntu-latest
     steps:
+      - name: Make release directory
+      - run: mkdir release
+      - name: Checkout main
       - uses: actions/checkout@master
-      - run: ls -lR
-      - run: pushd 'Renton Municipal Airport Pack 1' && zip -r '../Renton Municipal Airport Pack 1.zip' . && popd
-      - run: ls -lR
+      - name: Zip content packs
+      - run: ls -d *Pack* | while read directory; do pushd "${directory}" && zip -r ../"${directory}.zip" . && popd; done
+      - name: List release directory
+      - run: ls -lR release
       - uses: actions/upload-artifact@v3
         with:
           name: content-pack-artifacts
-          path: 'Renton Municipal Airport Pack 1.zip'
+          path: 'release'
           retention-days: 5
+  
